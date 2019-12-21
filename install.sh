@@ -28,7 +28,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install PHP extensions
-pecl install imagick
+#pecl install imagick
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet
