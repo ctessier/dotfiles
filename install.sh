@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Ask for the administrator password upfront
+sudo -v
+
 echo "Installing your Mac..."
 
 # Create `code` directory
@@ -32,5 +35,9 @@ pecl install imagick
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
+
+# Set macOS preferences
+# We will run this last because this will reload the shell
+source .macos
 
 echo "All done!"
