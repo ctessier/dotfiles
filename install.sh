@@ -36,6 +36,9 @@ pecl install imagick
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
+# Stop Valet to avoid conflicts with Docker
+valet stop
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
