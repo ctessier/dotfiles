@@ -1,3 +1,6 @@
+# Shell
+alias ll="ls -l"
+
 # Directories
 alias dotfiles="cd $DOTFILES"
 
