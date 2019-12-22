@@ -13,6 +13,7 @@ brew 'coreutils' # those that come with macOS are outdated
 brew 'gd'
 brew 'php' # latest version of PHP
 brew 'node'
+brew 'yarn'
 brew 'nginx'
 brew 'php@7.3'
 brew 'mariadb'
