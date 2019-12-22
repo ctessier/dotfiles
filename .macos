@@ -10,6 +10,10 @@ osascript -e 'tell application "System Preferences" to quit'
 # Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+###############################################################################
+# General UI/UX                                                               #
+###############################################################################
+
 # Enable Dark mode
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 
@@ -40,3 +44,25 @@ defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM \\U00e0  
 
 # Add bluetooth and volume icon to the taskbar
 defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/Displays.menu" "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+# Dock settings
+defaults write com.apple.dock persistent-apps -array
+defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock showhidden -bool true
+
+###############################################################################
+# Energy saving                                                               #
+###############################################################################
+
+# Enable lid wakeup
+sudo pmset -a lidwake 1
+
+# Sleep the display after x minutes
+sudo pmset -a displaysleep 15
+
+# Disable machine sleep while charging
+sudo pmset -c sleep 0
+
+# Set machine sleep on battery
+sudo pmset -b sleep 15
