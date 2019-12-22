@@ -1,6 +1,9 @@
 # Path to the dotfiles repository
 export DOTFILES=$HOME/.dotfiles
 
+# Path to the code directory
+export CODE_DIR=$HOME/code
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -104,3 +107,5 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+cd $CODE_DIR
