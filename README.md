@@ -16,3 +16,39 @@ This project hosts my dotfiles for my Mac installation. It was highly inspired b
 Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
+
+## macOS configurations
+
+### General UI/UX
+
+- [x] Enable Dark mode
+- [x] Set language to French and currency to Euros
+- [x] Set measurement unit to Centimeters
+- [x] Enable metric units system
+- [x] Set temperature unit to Celcius
+
+### Taskbar
+
+- [x] Show battery percentage
+- [x] Show Bluetooth, Volume and Display icons
+- [x] Set date format to show the day of the week and the seconds
+
+### Mouse & trackpad
+
+- [x] Set mouse speed to 2.0
+- [x] Set trackpad speed to 2.0
+- [x] Enable tap to click on trackpad and MagicMouse
+- [x] Set scroll direction to non-natural
+
+### Dock
+
+- [x] Show only opened applications
+- [x] Enable auto-hide
+- [x] Make icons of hidden applications transparent
+
+### Energy saving
+
+- [x] Enable lid wakeup
+- [x] Make the display sleep after 15 minutes
+- [x] Disable machine sleep while charging
+- [x] Make machine sleep on battery after 15 minutes
