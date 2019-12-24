@@ -9,3 +9,6 @@ alias artisan="php artisan"
 
 # Docker
 alias dps="docker ps"
+
+# Git
+alias gs="git status"
