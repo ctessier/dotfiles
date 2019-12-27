@@ -44,6 +44,7 @@ cask 'quicklook-json'
 mas 'Spark', id: 1176895641
 mas 'Magnet', id: 441258766
 mas '1Password 7', id: 1333542190
+mas 'The Unarchiver', id: 425424353
 mas 'Microsoft Word', id: 462054704
 #mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Outlook', id: 985367838
