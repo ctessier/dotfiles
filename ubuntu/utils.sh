@@ -396,9 +396,6 @@ install_package() {
 
 }
 
-
-
-
 install_snap_package() {
   
     declare -r PACKAGE="$2"
