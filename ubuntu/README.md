@@ -6,7 +6,7 @@ These scripts were highly inspired (not to say "copied") from [Cătălin's (aka 
 ## Installation
 
 ```bash
-$ ./install.sh
+$ ./main.sh
 ```
 
 ## References
