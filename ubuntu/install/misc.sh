@@ -15,6 +15,7 @@ main() {
   install_package "curl" "curl"
   install_package "xclip" "xclip"
   install_package "git" "git"
+  install_package "pidgin" "pidgin"
 
 }
 
