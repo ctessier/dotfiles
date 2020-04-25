@@ -409,6 +409,10 @@ install_snap_package() {
 
 }
 
+binary_exists() {
+    sh -c "$1" &> /dev/null
+}
+
 package_is_installed() {
     dpkg -s "$1" &> /dev/null
 }
