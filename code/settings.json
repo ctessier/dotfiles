@@ -1,0 +1,26 @@
+{
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 30,
+    "editor.fontFamily": "Operator Mono Light",
+    "files.insertFinalNewline": true,
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "conventionalCommits.gitmoji": true,
+    "gitmoji.additionalEmojis": [
+        {
+          "emoji": "🧹",
+          "code": ":broom:",
+          "description": "Clean some old and unused stuff."
+        }
+    ],
+    "conventionalCommits.promptFooter": false,
+    "conventionalCommits.emojiFormat": "emoji",
+    "workbench.iconTheme": "material-icon-theme",
+    "conventionalCommits.showNewVersionNotes": false
+}
