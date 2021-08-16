@@ -2,8 +2,8 @@
     "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 30,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 27,
     "editor.fontFamily": "Operator Mono Light",
     "files.insertFinalNewline": true,
     "search.exclude": {
